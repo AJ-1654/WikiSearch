@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WikiSearch</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-sm-12 jumbotron text-center">
+                <h1 class="heading">WikiSearch</h1>
+                <p>
+                    <i>Live search results from wikipedia..</i>
+                </p>
+                <hr class="shortHr">
+                <div class="searchBox">
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Type something interesting!">
+                    <br>
+                    <br>
+                    <button class="btn btn-primary random">Article of the day</button>
+                </div>
+            </div>
+
+
+            <div class="col-sm-8 offset-sm-2 searchResults">
+                <div id="update"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid embed-responsive embed-responsive-16by9">
+        <div class="row">
+            <iframe src="" frameborder="0" class="embed-responsive-item" widht="1080" height="760" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
