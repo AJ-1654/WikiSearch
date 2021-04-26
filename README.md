@@ -1,3 +1,3 @@
 # WikiSearch
 
-A simple javascript application
+A simple Javascript application to search on wikipedia
